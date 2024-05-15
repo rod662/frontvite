@@ -2,7 +2,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = 'http://localhost:5000/apli/clientes/';
+//const URL = 'http://localhost:5000/apli/clientes/';
+const URL = 'https://backendvite-ldob.onrender.com/apli/clientes/';
 
 const CompMostrarClientes = () => {
     const [clientes, setClientes] = useState([]);

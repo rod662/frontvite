@@ -2,7 +2,8 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = 'http://localhost:5000/apli/productos';
+//const URL = 'http://localhost:5000/apli/productos';
+const URL = 'https://backendvite-ldob.onrender.com/apli/productos';
 
 const CompEditarProductos = () => {
 
